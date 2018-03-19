@@ -1,1 +1,112 @@
-/* custom styles */
+
+.navbar {
+  	overflow: hidden;
+  	background-color: #111111;
+  	position: fixed;
+  	top: 0;
+  	height: 70px;
+  	width: 100%;
+}
+
+.navlink {
+  	float: right;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 25px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.navname {
+	float:left;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 25px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.navbar a:hover {
+	color: #6e6e6e  
+}
+
+.row {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	background: url(../imgs/50.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.col {
+	margin-left: 700px;
+}
+
+#selfie {
+	border: solid white;
+    border-radius: 2500px;
+    width: 250px;
+    height: auto;
+    margin-top: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 94px;
+}
+
+#name {
+	margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#bar {
+	margin-top: -26px;
+    text-align: center;
+}
+
+#pos {
+	margin-top: -15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#city {
+	margin-top: -7px;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 20px 0 20px;
+	background-color: #111111;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	font-weight: 500;
+}
+.copyright {
+	font-family: Raleway;
+	margin: 24px 20px 10px 20px;
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
