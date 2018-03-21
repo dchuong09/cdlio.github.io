@@ -32,50 +32,21 @@
 }
 
 .row {
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	background: url(../imgs/50.jpg);
-	background-position: center;
-	background-size: cover;
+	color: white;
 }
 
 .col {
-	margin-left: 700px;
+	text-align: center;
+	margin-top: 200px;
+	font-family: "Montserrat", "sans-serif";
+	font-weight: 700;
+	line-height: 1.1em;
+	font-size: 20px;
 }
 
-#selfie {
-	border: solid white;
-    border-radius: 2500px;
-    width: 250px;
-    height: auto;
-    margin-top: 100px;
-    margin: 0 auto;
-    display: block;
-    margin-top: 94px;
-}
-
-#name {
-	margin-top: 5px;
-    font-size: 30px;
-    text-align: center;
-}
-
-#bar {
-	margin-top: -26px;
-    text-align: center;
-}
-
-#pos {
-	margin-top: -15px;
-    font-size: 16px;
-    text-align: center;
-}
-
-#city {
-	margin-top: -7px;
-    font-size: 16px;
-    text-align: center;
+body {
+	background-image: url("../imgs/1.jpg");
+	background-position: cover
 }
 
 footer {
