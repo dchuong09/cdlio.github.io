@@ -7,7 +7,7 @@
 }
 
 #navcol-1 {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 	font-family: "Montserrat", "sans-seriff"
 	color: black;
@@ -22,14 +22,19 @@
 	color: white;
 }
 
+.nav-link:hover {
+	color: #AB6969;
+}
 
 
 .navbar-right {
-	margin-left: 800px;
+	margin-left: 850px;
 }
 
 .col {
 	text-align: center;
 	margin-top: 120px;
 	color: white;
+	font-size: 27px;
+	font-family: "Montserrat", "sans-seriff";
 }
