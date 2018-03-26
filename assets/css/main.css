@@ -11,6 +11,7 @@
 	font-weight: 700;
 	font-family: "Montserrat", "sans-seriff"
 	color: black;
+	display: inline;
 }
 
 .navbar-brand {
@@ -19,6 +20,12 @@
 
 .nav-link {
 	color: white;
+}
+
+
+
+.navbar-right {
+	margin-left: 800px;
 }
 
 .col {
