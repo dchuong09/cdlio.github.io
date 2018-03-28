@@ -6,6 +6,33 @@
 	background-size: cover;
 }
 
+#footer {
+	text-align: center;
+	height: 60vh;
+}
+
+
+.contact-info {
+	color: #FFFFFF;
+	padding-top: 80px;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+	background-color: #39373A;
+}
+
+
+.well {
+	border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #39373A;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 25px;
+   	
+}
+
 #navcol-1 {
 	font-size: 20px;
 	font-weight: 700;
