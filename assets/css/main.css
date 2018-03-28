@@ -11,7 +11,6 @@
 	height: 60vh;
 }
 
-
 .contact-info {
 	color: #FFFFFF;
 	padding-top: 80px;
@@ -28,6 +27,7 @@ footer {
     padding: 10px 40px; 
     background: #39373A;
     width: 300px;
+    margin: auto;
     border-radius: 15px;
     font-size: 25px;
    	
@@ -58,7 +58,7 @@ footer {
 	margin-left: 850px;
 }
 
-.col {
+.center-div {
 	text-align: center;
 	margin-top: 120px;
 	color: white;
