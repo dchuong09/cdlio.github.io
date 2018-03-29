@@ -21,6 +21,9 @@ footer {
 	background-color: #39373A;
 }
 
+#toContact a:hover {
+	color: white;
+}
 
 .well {
 	border: 2px solid #a1a1a1;
@@ -30,7 +33,12 @@ footer {
     margin: auto;
     border-radius: 15px;
     font-size: 25px;
+    color: white;
    	
+}
+
+.icon {
+	padding-top: 20px;
 }
 
 #navcol-1 {
