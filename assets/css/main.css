@@ -71,6 +71,17 @@ p {
 	line-height: 30px;
 }
 
+img {
+	width: 120px;
+	height: 120px;
+}
+
+#tech {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	/*margin-right: 10px;*/
+}
 
 .inner-container {
 	max-width: 80em;
