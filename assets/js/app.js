@@ -3,7 +3,7 @@ console.log("app.js linked.");
 $(function() {
   // This will select everything with the class smoothScroll
   // This should prevent problems with carousel, scrollspy, etc...
-  $('#click').click(function() {
+  $('.click').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
