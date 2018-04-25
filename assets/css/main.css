@@ -11,6 +11,10 @@
 	height: 60vh;
 }
 
+.card-img-top {
+	height: 250px;
+}
+
 .contact-info {
 	color: #FFFFFF;
 	padding-top: 80px;
@@ -41,7 +45,7 @@ footer {
 	padding-top: 20px;
 }
 
-#navcol-1 {
+.navcol-1 {
 	font-size: 20px;
 	font-weight: 700;
 	font-family: "Montserrat", "sans-seriff"
@@ -58,7 +62,7 @@ p {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	font-family: 'Yrsa', serif;
-	font-size: 18px;
+	font-size: 22px;
 
 
 }
@@ -67,11 +71,11 @@ p {
 	padding-top: 50px;
 	font-family: 'Do Hyeon', sans-serif;
 	font-weight: 500;
-	font-size: 17px;
+	font-size: px;
 	line-height: 30px;
 }
 
-img {
+.iconTech {
 	width: 120px;
 	height: 120px;
 }
@@ -79,8 +83,24 @@ img {
 #tech {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	
+	display: grid;
 	/*margin-right: 10px;*/
+}
+
+.profileImg {
+	margin-top: 24px;
+	border-radius: 25px;
+	height: 150px;
+}
+
+
+
+.firstSec {
+	margin-bottom: 50px;
+}
+
+.thirdSec {
+	margin-top: 100px;
 }
 
 .inner-container {
@@ -105,9 +125,7 @@ img {
 }
 
 
-.navbar-right {
-	margin-left: 850px;
-}
+
 
 .center-div {
 	text-align: center;

@@ -30,6 +30,7 @@
 </head>
 
 
+
 <body>
 
 
@@ -38,10 +39,9 @@
 
     <!-- navBar -->
     <nav class="navbar navbar-expand-lg navbar-default my-navbar">
-      <a class="navbar-brand" href="#">Chuong Dao</a>
 
-      <div class="collapse navbar-collapse" id="navcol-1">
-        <ul class="nav navbar-nav navbar-right">
+      <div class="collapse navbar-collapse navcol-1">
+        <ul class="nav navbar-nav navbar-right ml-auto">
           <li class="nav-item" role="presentation">
             <a class="nav-link click" href="#toAbout">about</a>
           </li>
@@ -70,49 +70,61 @@
   <section class="inner-container space-bottom">
     <div class="about" id="toAbout">
       <h3>About</h3>
-      <p>Hello, my name is Chuong. I’m a software developer, a food-lover and an inquisitive person who always wants to learn new technologies and find a creative solutions to solve complex problems. When I’m not building anything, I spend time going new places and explore the foods.</p>
 
-      <h3>Tech Stack</h3>
-      <div class="row" id="tech">
-        <div class="col-4">
-          <img src="assets/imgs/css3.png">
-          <img src="assets/imgs/html5.png">
-          <img src="assets/imgs/jquery.png">
-          <img src="assets/imgs/js.png">
+      <div class="row firstSec"> 
+        <div class="col-3"> 
+          <img class="profileImg" src="assets/imgs/selfie.jpg"> 
         </div>
 
-        <div class="col-6">
-          <img src="assets/imgs/node.png">
-          <img src="assets/imgs/rails.png">
-          <img src="assets/imgs/ruby.png">
-          <img src="assets/imgs/react.png">
-          <img src="assets/imgs/mongodb.png">
+        <div class="col-8">  
+          <p>Hello, my name is Chuong. I’m a software developer, a food-lover and an inquisitive person who always wants to learn new technologies and find a creative solutions to solve complex problems. When I’m not building anything, I spend time going new places and explore the foods.</p>
         </div>
+      </div>
 
+      <div class="secondSec">
+        <h3>Tech Stack</h3>
+        <div class="row" id="tech">
+          <div class="col-md-8 m-auto">
+            <img class="iconTech" src="assets/imgs/css3.png">
+            <img class="iconTech" src="assets/imgs/html5.png">
+            <img class="iconTech" src="assets/imgs/js.png">
+            <img class="iconTech" src="assets/imgs/jquery.png">
+            <img class="iconTech" src="assets/imgs/node.png">
+            <img class="iconTech" src="assets/imgs/rails.png">
+            <img class="iconTech" src="assets/imgs/ruby.png">
+            <img class="iconTech" src="assets/imgs/react.png">
+            <img class="iconTech" src="assets/imgs/mongodb.jpeg">
+            <img class="iconTech" src="assets/imgs/git.png">
+          </div>
+
+        </div>
       </div>
 
 
-      <h3 id="toProject">Project</h3>
+      <h3 class="thirdSec" id="toProject">Project</h3>
 
       <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="assets/imgs/project1.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            
+            <h5 class="card-title">SF Guide</h5>
+            <a href="https://github.com/dchuong09/TripPlanner-Project">Github</a>
+            <a class="float-right" href="https://calm-caverns-75257.herokuapp.com/">Site</a>
           </div>
         </div>
 
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="assets/imgs/project2.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            
+            <h5 class="card-title">Vagabond</h5>
+            <a href="https://github.com/dchuong09/travelTips">Github</a>
+            <a class="float-right" href="https://pacific-journey-72840.herokuapp.com/">Site</a>
           </div>
         </div>
+
+
       </div>
+    </div>
   
   
     
